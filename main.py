@@ -9,10 +9,13 @@ Standard library only.
 
 import os
 
-ENTRY = (
-    "Ritual Stapler, c. 2140 BCE. Cast bronze, iron teeth; used to bind "
-    "offerings to the temple wall. Gift of the Department of Perpetual Paperwork."
-)
+OBJECT = "Ritual Stapler"
+DATE = "c. 2140 BCE"
+MATERIAL = "Cast bronze, iron teeth"
+USE = "used to bind offerings to the temple wall"
+DONOR = "Gift of the Department of Perpetual Paperwork"
+
+ENTRY = f"{OBJECT}, {DATE}. {MATERIAL}; {USE}. {DONOR}."
 
 
 def main() -> None:
